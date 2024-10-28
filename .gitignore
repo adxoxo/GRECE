@@ -1,0 +1,34 @@
+Here's a basic .gitignore file for a Django REST Framework project:
+
+# Django-specific files
+*.sqlite*
+*.db*
+db.sqlite3
+
+# Python files
+*.pyc
+*.pyo
+__pycache__
+
+# Test files
+*.pyc
+*.pyo
+__pycache__
+tests.py
+*test*.py
+
+# IDE files
+.idea/
+*.iml
+*.DS_Store
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# Local configuration
+local_settings.py
+
+# Environment files
+.env*
