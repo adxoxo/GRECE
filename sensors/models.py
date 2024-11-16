@@ -10,6 +10,7 @@ class HydroponicSystem(models.Model):
 
 class HydroponicParameters(models.Model):
     System = models.ForeignKey(HydroponicSystem, on_delete=models.CASCADE)
+    Water_level = models.FloatField(null=True)
     EC = models.FloatField(null=True)
     PH = models.FloatField(null=True)
     Temp = models.FloatField(null=True)
